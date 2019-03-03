@@ -1,6 +1,6 @@
-angular.module('marsRoverApp')
+angular.module('greetUser')
     .component('greetUser', {
-        template: 'Hello {{$ctrl.user}}!! Welcome to, {{$MarsRoverController.appTitle}}',
+        templateUrl: 'greet-user/greet-user.template.html',
         controller: function GreetUserController() {
             this.user = 'Sankar';
         }
